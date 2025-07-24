@@ -20,7 +20,19 @@
     "wdth" 100;
 }
 
+/* commons */
+
+.btn{
+    background-color: #E95A08;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    height: 50px;
+    border: #E95A08;
+}
+
 /* navbar */
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -63,11 +75,12 @@ nav img{
 }
 
 /* banner */
+
 .banner{
     display: flex;
     height: 500px;
     width: 1600px;
-    margin: 120px auto;
+    margin: 130px auto 200px auto;
     justify-content: space-between;
     
     
@@ -113,7 +126,7 @@ nav img{
 .plants h2{
     font-size: 50px;
     font-weight: 700;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 
 .plants h2 span{
@@ -125,7 +138,10 @@ nav img{
     font-weight: 400;
     width: 888px;
     text-align: center;
+    padding-bottom: 20px;
 }
+
+/* cards */
 
 .cards{
     display: grid;
@@ -133,32 +149,82 @@ nav img{
     grid-template-columns: repeat(4, 1fr); 
     grid-template-rows: repeat(2, auto);
     gap: 20px; 
+    row-gap: 30px;
     margin: 0 auto;
 }
-.container{
-    height: 500px;
-    padding-bottom: 30px;
-}
-
 .container img{
     width: 100%;
+    height: 450px;
 }
 .container p{
     width: 100%;
     font-size: 22px;
     font-weight: 500;
     color: #111111;
-
+    padding-bottom: 20px;
 }
 .container h3{
     width: 100%;
     text-align: center;
+    padding-bottom: 20px;
     font-size: 22px;
     font-weight: 700;
     color: #111111;
 }
 
 .container button{
-    
+    margin-bottom: 30px;
     width: 100%;
 }
+
+
+/* flower and plants section */
+
+.fnp{
+    display: flex;
+    width: 1600px;
+    height: auto;
+    margin: 210px auto;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    
+}
+.images{
+    position: relative;
+    
+}
+
+.images #badge{
+    height: 286px;
+    width: 286px;
+    position: absolute;
+    top: 0; 
+    right: 0; 
+    transform: translate(50%, -50%); 
+    background: none;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.images #store{
+    height: 800px;
+    width: 760px;
+}
+
+.pros{
+    width: 700px;
+    height: 700px;
+    padding-top: 150px;
+}
+ .pros h2{
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 20px;
+ }
+
+ .pros li{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 20px;
+
+ }

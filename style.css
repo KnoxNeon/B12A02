@@ -184,10 +184,9 @@ nav img{
     display: flex;
     width: 1600px;
     height: auto;
-    margin: 210px auto;
-    justify-content: space-between;
+    margin: 210px;
     align-items: center;
-    gap: 50px;
+    gap: 150px;
     
 }
 .images{
@@ -203,7 +202,7 @@ nav img{
     right: 0; 
     transform: translate(50%, -50%); 
     background: none;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    
 }
 
 .images #store{
@@ -212,7 +211,7 @@ nav img{
 }
 
 .pros{
-    width: 700px;
+    width: 500px;
     height: 700px;
     padding-top: 150px;
 }
@@ -224,7 +223,32 @@ nav img{
 
  .pros li{
     font-size: 22px;
+    font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
     padding-bottom: 20px;
 
+ }
+
+ /* deals */
+ .deals{
+    margin: 0 auto;
+    height: 150px;
+    width: 1600px;
+    text-align: center;
+ }
+ .deals h2{
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 16px;
+ }
+ .deals span{
+    color: #E95A08;
+ }
+
+ .deals p{
+    font-size: 22px;
+    font-weight: 400;
+    width: 1000px;
+    margin: 0 auto;
+    color: rgba(0, 0, 0, 0.5);
  }

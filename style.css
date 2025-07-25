@@ -31,6 +31,10 @@
     border: #E95A08;
 }
 
+.no-bg{
+    background: none;
+}
+
 /* navbar */
 
 nav{
@@ -251,4 +255,100 @@ nav img{
     width: 1000px;
     margin: 0 auto;
     color: rgba(0, 0, 0, 0.5);
+ }
+
+ /* deals with bg */
+ .deals-bg{
+    display: flex;
+    width: 1600px;
+    height: 500px;
+    margin:0 auto;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 120px;
+    margin-bottom:50px;
+ }
+
+ .deals-bg .left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 570px;
+    
+ }
+
+ .left .bloom{
+    width: 100%;
+    height: 240px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/deal-bloom.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    color: white;
+    border-radius: 22px;
+ }
+
+ .left .ana{
+    width: 100%;
+    height: 240px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/deal-ana.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    color: white;
+    border-radius: 22px;
+    
+ }
+
+ .deals-bg .right{
+    width: 1000px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/deal-zabo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    color: white;
+    border-radius: 22px;
+ }
+
+ .left h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.95);
+    padding-bottom: 20px;
+ }
+
+ 
+ .right h3{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.95);
+    padding-bottom: 20px;
+ }
+
+ .left p{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.95);
+    padding-bottom: 20px;
+    text-decoration: underline;
+ }
+
+  .right p{
+    font-size: 28px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.95);
+    padding-bottom: 20px;
+    text-decoration: underline;
  }

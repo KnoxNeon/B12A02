@@ -459,6 +459,11 @@ footer {
 /* responsiveness */
 
 @media (max-width: 576px) {
+
+    html, body {
+    overflow-x: hidden;
+}
+
     nav {
         width: 100%;
         padding: 0 20px;
@@ -487,7 +492,7 @@ footer {
         height: auto;
         width: 100%;
         margin: 50px auto;
-        padding: 0 20px;
+        
         text-align: left;
     }
 
@@ -498,9 +503,10 @@ footer {
     }
 
     .banner .title {
-        width: 100%;
+        width: 90%;
         margin-top: 20px;
-        align-self: auto;
+        /* align-self: auto; */
+        padding: 0 20px;
     }
 
     .title h1 {

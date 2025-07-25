@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     background-color: #F5F8FF;
@@ -7,22 +7,22 @@
 /* fonts */
 
 .inter-normal {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 .noto-serif-normal {
-  font-family: "Noto Serif", serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 /* commons */
 
-.btn{
+.btn {
     background-color: #E95A08;
     color: white;
     font-size: 16px;
@@ -31,48 +31,51 @@
     border: #E95A08;
 }
 
-.no-bg{
+.no-bg {
     background: none;
 }
 
 /* navbar */
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 50px;
     height: 75px;
     width: 1600px;
-    margin: 30px auto;  
+    margin: 30px auto;
 }
 
-nav img{
+nav img {
     height: 90px;
     width: 140px;
 }
-.navItems ul{
+
+.navItems ul {
     display: flex;
     gap: 70px;
 }
-.navItems li{
+
+.navItems li {
     list-style: none;
-    justify-content: center;   
+    justify-content: center;
 }
 
-.navItems li:nth-child(1){
+.navItems li:nth-child(1) {
     font-size: 16px;
     font-weight: 700;
     color: #252432;
 }
 
-.navItems li:nth-child(4){
+.navItems li:nth-child(4) {
     font-size: 16px;
     font-weight: 400;
     color: #252432;
 }
 
-.navItems li:nth-child(2), li:nth-child(3) {
+.navItems li:nth-child(2),
+li:nth-child(3) {
     font-size: 16px;
     font-weight: 400;
     color: #8987A1;
@@ -80,37 +83,39 @@ nav img{
 
 /* banner */
 
-.banner{
+.banner {
     display: flex;
     height: 500px;
     width: 1600px;
     margin: 130px auto 200px auto;
     justify-content: space-between;
-    
-    
+
+
 }
-.banner .title{
+
+.banner .title {
     width: 600px;
     bottom: 0;
     align-self: flex-end;
 }
 
-.title h1{
+.title h1 {
     font-weight: 700;
     font-size: 65px;
-    
+
 }
 
-.title h1 span{
+.title h1 span {
     color: #E95A08;
 }
-.title p{
+
+.title p {
     color: rgba(0, 0, 0, 0.5);
     font-size: 22px;
     font-weight: 400;
 }
 
-.banner img{
+.banner img {
     width: 700px;
     height: 400px;
     align-self: flex-end;
@@ -118,7 +123,7 @@ nav img{
 
 /* plants section */
 
-.plants{
+.plants {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -127,16 +132,17 @@ nav img{
     margin: 0 auto;
 }
 
-.plants h2{
+.plants h2 {
     font-size: 50px;
     font-weight: 700;
     padding-bottom: 15px;
 }
 
-.plants h2 span{
+.plants h2 span {
     color: #E95A08;
 }
-.plants p{
+
+.plants p {
     color: rgba(0, 0, 0, 0.5);
     font-size: 22px;
     font-weight: 400;
@@ -147,27 +153,30 @@ nav img{
 
 /* cards */
 
-.cards{
+.cards {
     display: grid;
     width: 1600px;
-    grid-template-columns: repeat(4, 1fr); 
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, auto);
-    gap: 20px; 
+    gap: 20px;
     row-gap: 30px;
     margin: 0 auto;
 }
-.container img{
+
+.container img {
     width: 100%;
     height: 450px;
 }
-.container p{
+
+.container p {
     width: 100%;
     font-size: 22px;
     font-weight: 500;
     color: #111111;
     padding-bottom: 20px;
 }
-.container h3{
+
+.container h3 {
     width: 100%;
     text-align: center;
     padding-bottom: 20px;
@@ -176,7 +185,7 @@ nav img{
     color: #111111;
 }
 
-.container button{
+.container button {
     margin-bottom: 30px;
     width: 100%;
 }
@@ -184,177 +193,181 @@ nav img{
 
 /* flower and plants section */
 
-.fnp{
+.fnp {
     display: flex;
     width: 1600px;
     height: auto;
     margin: 210px;
     align-items: center;
     gap: 150px;
-    
-}
-.images{
-    position: relative;
-    
+
 }
 
-.images #badge{
+.images {
+    position: relative;
+
+}
+
+.images #badge {
     height: 286px;
     width: 286px;
     position: absolute;
-    top: 0; 
-    right: 0; 
-    transform: translate(50%, -50%); 
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
     background: none;
-    
+
 }
 
-.images #store{
+.images #store {
     height: 800px;
     width: 760px;
 }
 
-.pros{
+.pros {
     width: 500px;
     height: 700px;
     padding-top: 150px;
 }
- .pros h2{
+
+.pros h2 {
     font-size: 50px;
     font-weight: 700;
     padding-bottom: 20px;
- }
+}
 
- .pros li{
+.pros li {
     font-size: 22px;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
     padding-bottom: 20px;
 
- }
+}
 
- /* deals */
- .deals{
+/* deals */
+.deals {
     margin: 0 auto;
     height: 150px;
     width: 1600px;
     text-align: center;
- }
- .deals h2{
+}
+
+.deals h2 {
     font-size: 50px;
     font-weight: 700;
     padding-bottom: 16px;
- }
- .deals span{
-    color: #E95A08;
- }
+}
 
- .deals p{
+.deals span {
+    color: #E95A08;
+}
+
+.deals p {
     font-size: 22px;
     font-weight: 400;
     width: 1000px;
     margin: 0 auto;
     color: rgba(0, 0, 0, 0.5);
- }
+}
 
- /* deals with bg */
- .deals-bg{
+/* deals with bg */
+.deals-bg {
     display: flex;
     width: 1600px;
     height: 500px;
-    margin:0 auto;
+    margin: 0 auto;
     justify-content: center;
     gap: 30px;
     margin-top: 120px;
-    margin-bottom:50px;
- }
+    margin-bottom: 50px;
+}
 
- .deals-bg .left{
+.deals-bg .left {
     display: flex;
     flex-direction: column;
     gap: 30px;
     width: 570px;
-    
- }
 
- .left .bloom{
+}
+
+.left .bloom {
     width: 100%;
     height: 240px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/deal-bloom.png");
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     color: white;
     border-radius: 22px;
- }
+}
 
- .left .ana{
+.left .ana {
     width: 100%;
     height: 240px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/deal-ana.png");
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     color: white;
     border-radius: 22px;
-    
- }
 
- .deals-bg .right{
+}
+
+.deals-bg .right {
     width: 1000px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/deal-zabo.png");
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     color: white;
     border-radius: 22px;
- }
+}
 
- .left h3{
+.left h3 {
     font-size: 20px;
     font-weight: 700;
     color: rgba(255, 255, 255, 0.95);
     padding-bottom: 20px;
- }
+}
 
- 
- .right h3{
+
+.right h3 {
     font-size: 40px;
     font-weight: 700;
     color: rgba(255, 255, 255, 0.95);
     padding-bottom: 20px;
- }
+}
 
- .left p{
+.left p {
     font-size: 16px;
     font-weight: 600;
     color: rgba(255, 255, 255, 0.95);
     padding-bottom: 20px;
     text-decoration: underline;
- }
+}
 
-  .right p{
+.right p {
     font-size: 28px;
     font-weight: 600;
     color: rgba(255, 255, 255, 0.95);
     padding-bottom: 20px;
     text-decoration: underline;
- }
+}
 
- /* join section */
- .join{
+/* join section */
+.join {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./assets/news-letter-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -364,60 +377,63 @@ nav img{
     flex-direction: column;
     align-items: center;
     justify-content: center;
- }
+}
 
- .join h2{
+.join h2 {
     font-size: 50px;
     font-weight: 700;
     color: white;
     padding-bottom: 20px;
- }
+}
 
- .input{
+.input {
     display: flex;
     width: 900px;
     height: 50px;
- }
+}
 
- .input input{
+.input input {
     width: 700px;
     height: 50px;
     font-size: 16px;
     padding-left: 10px;
     color: rgba(0, 0, 0, 0.5);
     border: rgba(0, 0, 0, 0.4);
- }
+}
 
-.input button{
+.input button {
     width: 200px;
     height: 50px;
     border: rgba(0, 0, 0, 0.4);
- }
+}
 
- /* footer seaction */
- footer{
+/* footer seaction */
+footer {
     display: flex;
     width: 100%;
     height: 300px;
     justify-content: space-around;
     align-items: center;
-    
- }
-.para{
+
+}
+
+.para {
     width: 350px;
     margin-left: 100px;
 }
- .para p{
+
+.para p {
     padding-top: 20px;
     font-size: 22px;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
- }
- .lists{
-    display: flex;
- }
+}
 
- .lists li{
+.lists {
+    display: flex;
+}
+
+.lists li {
     margin-top: 30px;
     margin-right: 100px;
     margin-bottom: 25px;
@@ -425,17 +441,262 @@ nav img{
     font-size: 16px;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
- }
+}
 
- .logos{
+.logos {
     width: 400px;
     display: flex;
-    gap:50px;
+    gap: 50px;
     padding-bottom: 170px;
     align-items: center;
- }
+}
 
- .logos img:nth-child(2) {
+.logos img:nth-child(2) {
     width: 20px;
     height: 18px;
+}
+
+/* responsiveness */
+
+@media (max-width: 576px) {
+    nav {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .navItems li {
+        display: none;
+    }
+
+    .navItems li:nth-child(4) {
+        display: block;
+        width: 120px;
+        height: auto;
+        padding-right: 20px;
+
+    }
+
+    .logo img {
+        width: 80px;
+        height: auto;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        align-items: center;
+        height: auto;
+        width: 100%;
+        margin: 50px auto;
+        padding: 0 20px;
+        text-align: left;
+    }
+
+    .banner img {
+        width: 100%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .banner .title {
+        width: 100%;
+        margin-top: 20px;
+        align-self: auto;
+    }
+
+    .title h1 {
+        font-size: 24px;
+        width: 240px;
+        padding-bottom: 20px;
+    }
+
+    .title p {
+        font-size: 14px;
+        width: 350px;
+    }
+
+    .plants {
+        margin-top: 65px;
+        width: 90%;
+        padding: 0 20px;
+    }
+
+    .plants h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .plants p {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .cards {
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .container p, h3{
+        font-size: 16px;
+    }
+
+    .fnp {
+        flex-direction: column;
+        width: 100%;
+        margin: 20px auto;
+        gap: 20px;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+
+    .fnp #store{
+        height: 400px;
+        width: 390px;
+        align-items: center;
+    }
+
+    .fnp #badge{
+        display: none;
+    }
+
+    .fnp .pros {
+        padding-top: 0;
+        width: 100%;
+        height: auto;
+        text-align: left;
+    }
+
+    .fnp .pros h2 {
+        font-size: 24px;
+        padding-left: 20px;
+    }
+
+    ul {
+        list-style-type: disc;
+        padding-left: 40px;
+    }
+
+    .fnp .pros li {
+        font-size: 14px;
+        width: 90%;
+        text-align: left;
+    }
+
+    .deals {  
+        width: 90%;
+        padding: 0 20px;
+    }
+
+    .deals h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .deals p {
+        font-size: 14px;
+        width: 330px;
+    }
+    .deals-bg {
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+        margin: 20px 0;
+        padding: 0 20px;
+        gap: 20px;
+    }
+
+    .deals-bg h3{
+        font-size:20px ;
+    }
+
+    .deals-bg p{
+        font-size:20px ;
+    }
+    .deals-bg .left,
+    .deals-bg .right {
+        width: 100%;
+    }
+
+    .left .bloom,
+    .left .ana {
+        height: 200px;
+    }
+
+    .deals-bg .right {
+        height: 200px;
+    }
+
+    .join{
+        height: 300px;
+        width: 100%;
+        margin: 30px auto;
+    }
+    .input {
+        width: 400px;
+        height: 50px;
+    }
+
+    .input input {
+        width: 70%;
+        font-size: 16px;
+    }
+
+    .input button {
+        width: 30%;
+        font-size: 16px;
+    }
+
+    .join h2 {
+        font-size: 20px;
+        text-align: center;
+        padding: 0 20px 20px 20px;
+    }
+
+    footer {
+        flex-direction: column;
+        width: 95%;
+        height: auto;
+        align-items: left;
+        padding-left: 20px;
+    }
+
+    footer .para{
+        margin: 0;
+        width: 95%;
+    }
+
+    .para img{
+        width: 180px;
+        height: 110px;
+    }
+
+    .para p{
+        font-size: 16px;
+    }
+
+    .lists{
+        width: 95%;
+        flex-direction: column;
+    }
+
+    .lists ul{
+        padding-left: 0;
+    }
+
+    .lists li{
+        font-size: 16px;
+    }
+
+    .logos{
+        padding-bottom: 50px;
+        padding-left: 30px;
+        height: 100px;
+        width: 100%;
+    }
+
 }

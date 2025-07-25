@@ -393,3 +393,49 @@ nav img{
     height: 50px;
     border: rgba(0, 0, 0, 0.4);
  }
+
+ /* footer seaction */
+ footer{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+    
+ }
+.para{
+    width: 350px;
+    margin-left: 100px;
+}
+ .para p{
+    padding-top: 20px;
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+ }
+ .lists{
+    display: flex;
+ }
+
+ .lists li{
+    margin-top: 30px;
+    margin-right: 100px;
+    margin-bottom: 25px;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+ }
+
+ .logos{
+    width: 400px;
+    display: flex;
+    gap:50px;
+    padding-bottom: 170px;
+    align-items: center;
+ }
+
+ .logos img:nth-child(2) {
+    width: 20px;
+    height: 18px;
+}
